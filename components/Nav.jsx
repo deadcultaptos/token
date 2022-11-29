@@ -11,7 +11,10 @@ const nav = () => {
 
     const handledNav = () => {
         setNav(!nav)
+    
     }
+
+
     
     return (
     <div>
@@ -21,21 +24,21 @@ const nav = () => {
                 {/*-LOGO-*/}
                 <Link href='/'><div className='flex items-center'>
                     <div><BiFootball size={40} color='#00df9a'/></div>
-                    <div className='text-4xl font-bold ml-2 text-maincolor'>LOGO</div>
+                    <div className='text-4xl font-bold ml-2 text-maincolor logo'>FWCI</div>
                 </div>
                 </Link>
                 <div className='flex items-center'>
                 {/*-MENU-*/}
                     <ul className='text-gray-200 hidden md:flex space-x-3 uppercase'>
-                        <li className='hover:text-gray-700 p-2'><Link href='/'>Home</Link></li>
-                        <li className='hover:text-gray-700 p-2'><Link href='#about'>About</Link></li>
-                        <li className='hover:text-gray-700 p-2'><Link href='#tokonomics'>Tokonomics</Link></li>
-                        <li className='hover:text-gray-700 p-2'><Link href='#news'>News</Link></li>
+                        <li className='hover:text-maincolor p-2'><Link href='/'>Home</Link></li>
+                        <li className='hover:text-maincolor p-2'><Link href='#about'>About</Link></li>
+                        <li className='hover:text-maincolor p-2'><Link href='#tokonomics'>Tokonomics</Link></li>
+                        <li className='hover:text-maincolor p-2'><Link href='#news'>News</Link></li>
                     </ul>
                 {/*-SOCIAL-*/}
                     <ul className='hidden md:flex items-center space-x-4 ml-8'>
-                        <li><Link href=''><AiOutlineTwitter size={22} color={'#fff'} /></Link></li>
-                        <li><Link href=''><FaTelegramPlane size={22} color={'#fff'} /></Link></li>
+                        <li><Link href='https://twitter.com/FIFAWCIToken22'><AiOutlineTwitter size={22} color={'#fff'} /></Link></li>
+                        <li><Link href='https://t.me/FIFAWORLDCUPINUTOKEN'><FaTelegramPlane size={22} color={'#fff'} /></Link></li>
                     </ul>
 
                 </div>
@@ -46,8 +49,8 @@ const nav = () => {
             </div>
         </div>
             {/*--Mobile-Menu-Symbol--*/}
-            <div className={!nav ? 'md:hidden fixed mt-20 right-0 top-0 w-[40%] h-full border-l border-gray-900 bg-gray-900 ease-in-out duration-500 z-10' : 
-            'fixed top-0 w-[40%] mt-20 h-full border-r border-gray-900 bg-gray-900 ease-in-out duration-500 right-[-100%]'}>
+            <div className={!nav ? 'md:hidden fixed mt-20 right-0 top-0 w-[40%] h-full border-l border-gray-500 bg-black ease-in-out duration-500' : 
+            'fixed top-0 w-[40%] mt-20 h-full border-r border-gray-900 bg-black ease-in-out duration-500 right-[-100%]'}>
 
                 <ul className='p-5 text-gray-500 space-y-4 text-xl text-right uppercase'>
                     <li className='hover:text-maincolor border-b pb-2'><Link href='/'>Home</Link></li>
@@ -56,8 +59,8 @@ const nav = () => {
                     <li className='hover:text-maincolor'><Link href='#news'>News</Link></li>
                 </ul>              
                 <div className='flex mx-auto float-right pr-5 space-x-2'>
-                    <Link href=''><AiOutlineTwitter size={30} color={'#fff'} /></Link>
-                    <Link href=''><FaTelegramPlane size={30} color={'#fff'} /></Link>
+                    <Link href='https://twitter.com/FIFAWCIToken22'><AiOutlineTwitter size={30} color={'#fff'} /></Link>
+                    <Link href='https://t.me/FIFAWORLDCUPINUTOKEN'><FaTelegramPlane size={30} color={'#fff'} /></Link>
                 </div>
             </div>
     </nav>

@@ -6,3 +6,40 @@
 body {
     background:#000;
 }
+
+.custome-img {
+    background-image: url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1986&q=80');
+  }
+
+.logo {
+    font-family: 'Permanent Marker', cursive; 
+}
+
+h1 {
+    font-family: 'Alexandria', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Permanent Marker', cursive; 
+}
+
+p {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: lighter;
+}
+
+li {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;   
+}
+
+button {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;   
+}
+
+/* 
+font-family: 'Alexandria', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Permanent Marker', cursive; 
+*/
