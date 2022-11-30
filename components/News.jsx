@@ -9,7 +9,7 @@ function News() {
         <h2 className='text-white text-3xl md:text-5xl pb-5'>News</h2>
         
         <div className='flex justify-center text-center text-white md:space-x-5'>
-            <div className='sm:hidden md:block'>
+            <div className='hidden md:block'>
               <h3>FIFA Offical</h3>
             <TwitterTimelineEmbed
                 sourceType="profile"
