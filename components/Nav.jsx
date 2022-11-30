@@ -37,8 +37,8 @@ const nav = () => {
                     </ul>
                 {/*-SOCIAL-*/}
                     <ul className='hidden md:flex items-center space-x-4 ml-8'>
-                        <li><Link href='https://twitter.com/FIFAWCIToken22'><AiOutlineTwitter size={22} color={'#fff'} /></Link></li>
-                        <li><Link href='https://t.me/FIFAWORLDCUPINUTOKEN'><FaTelegramPlane size={22} color={'#fff'} /></Link></li>
+                        <li><a target='_blank' href='https://twitter.com/FIFAWCIToken22'><AiOutlineTwitter size={22} color={'#fff'} /></a></li>
+                        <li><a target='_blank' href='https://t.me/FIFAWORLDCUPINUTOKEN'><FaTelegramPlane size={22} color={'#fff'} /></a></li>
                     </ul>
 
                 </div>
@@ -59,8 +59,8 @@ const nav = () => {
                     <li className='hover:text-maincolor'><Link href='#news'>News</Link></li>
                 </ul>              
                 <div className='flex mx-auto float-right pr-5 space-x-2'>
-                    <Link href='https://twitter.com/FIFAWCIToken22'><AiOutlineTwitter size={30} color={'#fff'} /></Link>
-                    <Link href='https://t.me/FIFAWORLDCUPINUTOKEN'><FaTelegramPlane size={30} color={'#fff'} /></Link>
+                    <a target='_blank' href='https://twitter.com/FIFAWCIToken22'><AiOutlineTwitter size={30} color={'#fff'} /></a>
+                    <a target='_blank' href='https://t.me/FIFAWORLDCUPINUTOKEN'><FaTelegramPlane size={30} color={'#fff'} /></a>
                 </div>
             </div>
     </nav>

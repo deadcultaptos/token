@@ -4,8 +4,8 @@ import CountUp from 'react-countup';
 function Tokonomics() {
   return (
     <div id='tokonomics' className='max-w-[1240px] text-center text-white py-20'>
-        <div className='sm:text-3xl md:text-5xl pb-12'><h2>Tokonomics</h2></div>
-        <div className='grid md:grid-rows-2 sm:grid-rows-3 grid-flow-col gap-6'>
+        <div className='text-3xl md:text-5xl pb-12'><h2>Tokonomics</h2></div>
+        <div className='grid gap-6 grid-rows-6 md:grid-rows-2 grid-flow-col mx-auto px-5'>
         <div className='p-5 border rounded-xl'>
             <div className='text-bold uppercase'><p>Chain</p></div>
             <div className='text-2xl text-maincolor'><p>ETH</p></div>
@@ -33,12 +33,12 @@ function Tokonomics() {
         </div>
         <h3 className='sm:text-5xl md:text-7xl p-10'>ZERO <span className='text-maincolor'>TAX</span></h3>
         <p className='text-2xl font-bold'>How does it work?</p>
-        <ul className='text-left pt-5 text-lg'>
-            <li>👉 We run a poll within the commnuity for each footboll match</li>
-            <li>👉 If poll result matches the community vote</li>
-            <li>👉 We will burn 25k $FWCI Token 🤟</li>
+        <div className='text-left pt-5 pl-5 md:text-lg'>
+            <p>👉 We run a poll within the commnuity for each footboll match</p>
+            <p>👉 If poll result matches the community vote</p>
+            <p>👉 We will burn 25k $FWCI Token 🤟</p>
 
-        </ul>
+        </div>
     </div>
 
   )
