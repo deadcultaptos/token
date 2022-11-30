@@ -14,8 +14,8 @@ function Hero() {
             strings={['winning 🥇', 'earning', 'participate 🫡', 'burning 🔥']} typeSpeed={40} backSpeed={50} loop />
           </div>
           <div className='space-x-5 pt-10 font-bold'>
-            <Link href="" target="_blank"><button className='border text-bold py-3 px-5 rounded-md bg-maincolor border-maincolor text-gray-900'>BUY $FWCI</button></Link>
-            <Link href="" target="_blank"><button className='border text-bold py-3 px-5 rounded-md text-maincolor hover:text-white'>$FWCI CHART</button></Link>
+            <a href="" target="_blank"><button className='border text-bold py-3 px-5 rounded-md bg-maincolor border-maincolor text-gray-900 hover:bg-white'>BUY $FWCI</button></a>
+            <a href="" target="_blank"><button className='border text-bold py-3 px-5 rounded-md text-maincolor hover:text-white'>$FWCI CHART</button></a>
           </div>
     </div>
   )

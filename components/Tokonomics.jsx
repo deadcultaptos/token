@@ -16,7 +16,7 @@ function Tokonomics() {
         </div>
         <div className='p-5 border rounded-xl'>
             <div className='text-bold uppercase'><p>Initial Market Cap</p></div>
-            <div className='text-2xl text-maincolor'><p><CountUp end={4} duration={2}/>k</p></div>
+            <div className='text-2xl text-maincolor'><p><CountUp end={3} duration={1}/>k</p></div>
         </div>
         <div className='p-5 border rounded-xl'>
             <div className='text-bold uppercase'><p>Circulating Supply</p></div>
