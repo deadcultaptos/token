@@ -1,6 +1,7 @@
 import React from 'react'
 import Typed from 'react-typed';
 import Link from 'next/link';
+import Countdown from '../components/Countdown'
 
 function Hero() {
   return (
@@ -15,8 +16,9 @@ function Hero() {
           </div>
           <div className='space-x-5 pt-10 font-bold'>
             <a href="https://app.uniswap.org/#/swap?outputCurrency=0x7fe7C4163DdfFb928e5B89D64959d0a06040641a" target="_blank"><button className='border text-bold py-3 px-5 rounded-md bg-maincolor border-maincolor text-gray-900 hover:bg-white'>BUY $FWCI</button></a>
-            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xd60d64f1974e4a3d610581cc244ac155eab90ec1" target="_blank"><button className='border text-bold py-3 px-5 rounded-md text-maincolor hover:text-white'>$FWCI CHART</button></a>
+            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xd60d64f1974e4a3d610581cc244ac155eab90ec1" target="_blank" alt="Dex-tools"><button className='border text-bold py-3 px-5 rounded-md text-maincolor hover:text-white'>$FWCI CHART</button></a>
           </div>
+        <Countdown />
     </div>
   )
 }

@@ -38,6 +38,11 @@ button {
     font-weight: bold;   
 }
 
+.clock {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;    
+}
+
 /* 
 font-family: 'Alexandria', sans-serif;
 font-family: 'Noto Sans', sans-serif;
